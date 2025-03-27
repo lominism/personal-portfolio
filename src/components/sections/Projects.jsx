@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import { ProjectsCard } from "../ProjectsCard";
+import ProjectData from "../Projects.json";
 
 export const Projects = () => {
   return (
@@ -13,15 +14,14 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
-            <ProjectsCard />
+            {ProjectData.map((project) => (
+              <ProjectsCard
+                key={project.id}
+                title={project.title}
+                link={project.link}
+                image={project.image}
+              />
+            ))}
           </div>
         </div>
       </RevealOnScroll>
