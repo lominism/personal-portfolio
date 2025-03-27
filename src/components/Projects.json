@@ -2,19 +2,19 @@
     {
         "id": 1,
         "title": "Color Picker",
-        "image": "../images/image-1.jpg",
+        "image": "./public/images/image-1.jpg",
         "link": "https://lominism.com"
     },
     {
         "id": 2,
         "title": "QR Code Generator",
-        "image": "../images/image-1.jpg",
+        "image": "./public/images/image-1.jpg",
         "link": "https://lominism.github.io/qrcode"
     },
     {
         "id": 3,
         "title": "QR Code Generator w/ Logo",
-        "image": "../images/image-1.jpg",
+        "image": "./public/images/image-1.jpg",
         "link": "https://lominism.github.io/qrcode-w-templates/"
     }
 ]
