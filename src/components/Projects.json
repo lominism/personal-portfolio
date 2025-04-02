@@ -2,19 +2,37 @@
     {
         "id": 1,
         "title": "Color Picker",
-        "image": "images/image-1.jpg",
-        "link": "https://lominism.com"
+        "image": "images/color-flipper.png",
+        "link": "https://lom-colorflipper.netlify.app"
     },
     {
         "id": 2,
-        "title": "QR Code Generator",
-        "image": "images/image-1.jpg",
-        "link": "https://lominism.github.io/qrcode"
+        "title": "Reviews",
+        "image": "images/reviews.png",
+        "link": "https://lom-reviews.netlify.app"
     },
     {
         "id": 3,
+        "title": "FAQ",
+        "image": "images/faq.png",
+        "link": "https://lom-faq.netlify.app"
+    },
+    {
+        "id": 4,
+        "title": "Menu",
+        "image": "images/menu.png",
+        "link": "https://lom-menu.netlify.app"
+    },
+    {
+        "id": 5,
         "title": "QR Code Generator w/ Logo",
-        "image": "images/image-1.jpg",
+        "image": "images/qrcode-w-logo.png",
         "link": "https://lominism.github.io/qrcode-w-templates/"
+    },
+    {
+        "id": 6,
+        "title": "Movie Database",
+        "image": "images/lmdb.png",
+        "link": "https://lmdb.netlify.app"
     }
 ]
