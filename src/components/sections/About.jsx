@@ -1,8 +1,15 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = ["Javascript", "React", "HTML", "CSS", "Tailwind CSS"];
-  const backendSkills = ["Currently None :)"];
+  const frontendSkills = [
+    "Javascript",
+    "React",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+  ];
+  const backendSkills = ["Node.js", "Express", "MySQL", "MongoDB"];
 
   return (
     <section
@@ -20,9 +27,9 @@ export const About = () => {
             Academy. However, that doesn't take too much management so my day
             job is Chief Strategy Officer (CSO) of a tech company, also located
             here in Thailand. I have a background in programming when I used to
-            use Stata and R for data anaalysis and research projects. I also
-            have knowledge of Python. However, this past year, I decided I want
-            to see if I can be better than the devs we have at the company so I
+            use Stata and R for data analysis and research projects. I also have
+            knowledge of Python. However, this past year, I decided I want to
+            see if I can be better than the devs we have at the company so I
             made it a challenge to learn web and app development.
             <br></br>
             <br></br>
@@ -70,21 +77,47 @@ export const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-            <ul className="[&>*:nth-child(even)]:list-disc list-inside [&>*:nth-child(odd)]:text-blue-300 text-gray-300 space-y-2">
-              <li>
-                <strong>Yale University (2007)</strong>
-              </li>
-              <li>Bachelor of Arts in Chemistry</li>
-              <li>
-                <strong>
-                  UCSD School of Global Policy and Strategy (2011)
-                </strong>
-              </li>
-              <li>Master of International Affairs</li>
-              <li>
-                <strong>Zhejiang University (2013)</strong>
-              </li>
-              <li>Master of China Studies</li>
+            <ul>
+              <div className="mb-4">
+                <li className="text-blue-300 space-y-2">
+                  <strong>Yale University (2007)</strong>
+                </li>
+                <li className="text-tigerorange space-y-2 list-disc list-inside">
+                  Bachelor of Arts in Chemistry (B.A.)
+                </li>
+                <li className="text-gray-300 space-y-2 italic text-xs">
+                  Gates Millennium Scholar, California Governor's Scholar,
+                  President of Thai Student Association, Editor of college humor
+                  magazine "JE Temptations", Sigma Chi Magister
+                </li>
+              </div>
+              <div className="mb-4">
+                <li className="text-blue-300 space-y-2">
+                  <strong>
+                    UCSD School of Global Policy and Strategy (2011)
+                  </strong>
+                </li>
+                <li className="text-tigerorange space-y-2 list-disc list-inside">
+                  Master of International Affairs (MIA)
+                </li>
+                <li className="text-gray-300 space-y-2 italic text-xs">
+                  President of the Student Body, Dean's Fellow, Marketing
+                  Director of Journal of International Policy Solutions
+                </li>
+              </div>
+              <div className="mb-4">
+                <li className="text-blue-300 space-y-2">
+                  <strong>Zhejiang University (2013)</strong>
+                </li>
+                <li className="text-tigerorange space-y-2 list-disc list-inside">
+                  Master of China Studies (MCS)
+                </li>
+                <li className="text-gray-300 space-y-2 italic text-xs">
+                  I didn't do much here. I got a scholarship to do a second
+                  master's degree in China and pretty much chilled and enjoy the
+                  culture. My mandarin improved quite a bit while there though.
+                </li>
+              </div>
             </ul>
           </div>
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -100,10 +133,17 @@ export const About = () => {
                   Chief Strategy Officer
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam sapiente nostrum molestiae dolor officia quae beatae
-                  ad excepturi, vel hic sequi temporibus velit fugiat fuga, et
-                  itaque laboriosam laudantium! Voluptatem!
+                  As the Chief Strategy Officer (CSO) of Magic Box Solutions, I
+                  officially focus on business strategy and finanace. However, I
+                  operate often as the COO and have done everything from
+                  revamping the HR and Accounting departments to become more
+                  efficient to ensuring that day-to-day operations run smoothly.
+                </p>
+                <br></br>
+                <p>
+                  In between, I trained the project managers, established the QA
+                  team, and even advise the dev team and code myself when
+                  needed.
                 </p>
               </div>
               <div>
@@ -112,10 +152,17 @@ export const About = () => {
                 </h4>
                 <h5 className="italic text-tigerorange">Project Manager</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam sapiente nostrum molestiae dolor officia quae beatae
-                  ad excepturi, vel hic sequi temporibus velit fugiat fuga, et
-                  itaque laboriosam laudantium! Voluptatem!
+                  I originally started at the company as a PM, working on a data
+                  analysis project to use ML to predict rice yield using
+                  avaiable data such as weather, locations, rice type, etc.
+                </p>
+                <br></br>
+                <p>
+                  From there, I moved to managing teams that worked on more
+                  complex projects while finding better methods for operational
+                  efficiencies for interactions between the designers, PMs,
+                  sales team, and devs. That pretty much led to my role as the
+                  CSO.
                 </p>
               </div>
             </div>

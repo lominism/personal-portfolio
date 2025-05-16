@@ -39,6 +39,6 @@
         "title": "Movie Database",
         "image": "images/lmdb.png",
         "link": "https://lmdb.netlify.app",
-        "description": "This was one of the first projects I've ever built. Did it to explore APIs. Hardest part was the favorite button effect."
+        "description": "This was one of the first projects I've ever built. Did it to explore APIs. Hardest part was the \"favorite button\" effect."
     }
 ]
