@@ -3,36 +3,42 @@
         "id": 1,
         "title": "Color Picker",
         "image": "images/color-flipper.png",
-        "link": "https://lom-colorflipper.netlify.app"
+        "link": "https://lom-colorflipper.netlify.app",
+        "description": "Early project to practice Javascript and random number generation."
     },
     {
         "id": 2,
         "title": "Reviews",
         "image": "images/reviews.png",
-        "link": "https://lom-reviews.netlify.app"
+        "link": "https://lom-reviews.netlify.app",
+        "description": "Early project to practice Javascript and practice component composition."
     },
     {
         "id": 3,
         "title": "FAQ",
         "image": "images/faq.png",
-        "link": "https://lom-faq.netlify.app"
+        "link": "https://lom-faq.netlify.app",
+        "description": "Early project to practice Javascript and practice component composition."
     },
     {
         "id": 4,
         "title": "Menu",
         "image": "images/menu.png",
-        "link": "https://lom-menu.netlify.app"
+        "link": "https://lom-menu.netlify.app",
+        "description": "Explore a dynamic restaurant menu with categories, prices, and images. You can filter dishes. I think this is a good project to spin off as a service for restaurants."
     },
     {
         "id": 5,
         "title": "QR Code Generator w/ Logo",
         "image": "images/qrcode-w-logo.png",
-        "link": "https://lominism.github.io/qrcode-w-templates/"
+        "link": "https://lominism.github.io/qrcode-w-templates/",
+        "description": "Generate custom QR codes with embedded logos. I made this because I thought it was funny people pay to generate QR codes."
     },
     {
         "id": 6,
         "title": "Movie Database",
         "image": "images/lmdb.png",
-        "link": "https://lmdb.netlify.app"
+        "link": "https://lmdb.netlify.app",
+        "description": "This was one of the first projects I've ever built. Did it to explore APIs. Hardest part was the favorite button effect."
     }
 ]

@@ -1,3 +1,6 @@
+// I found this to be too slow so I removed it. Still keeping the code here though.
+// To put it back, wrap it around the different sections (after <section> but before <div>)
+
 import { useEffect, useRef } from "react";
 
 export const RevealOnScroll = ({ children }) => {
